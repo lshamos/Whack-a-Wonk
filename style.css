@@ -1,0 +1,166 @@
+@@font-face {
+    font-family: 'PressStart2P';
+    src: url('PressStart2P.ttf');
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  /*float: right;*/
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+body {
+  font-family: "PressStart2P", monospace;
+  color: rgba(233, 29, 14, 1);
+
+  background-color: rgba(1, 10, 25, 1);
+}
+
+button {
+    font-family: 'PressStart2P', monospace;
+  color: rgba(233, 29, 14, 1);
+  margin: 0 auto;
+  float: left;
+}
+
+.container {
+  background-image: url('images/debateStage.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 600px;
+  width: 800px;
+  border: 2px solid black;
+  position: relative;
+  cursor: url(images/poop.png), auto;
+}
+
+.hero {
+  display: inline-block;
+  width: 800px;
+  height: 200px;
+  margin-bottom: 200px;
+}
+
+.score {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+}
+
+.podiums {
+  z-index: 2;
+  background-image: url('Images/podium.png');
+  opacity:
+  background-size: auto;
+  background-position: center;
+  margin-left: 48px;
+  height: 200px;
+  width: 99px;
+  border: 1px solid black;
+  float: left;
+  display: block;
+}
+
+.player1 {
+display: inline-block;
+text-align: left;
+  width: 200px;
+  height: 75px;
+}
+
+.player2 {
+  float: right;
+  display: inline-block;
+width: 200px;
+height: 75px;
+}
+
+.start{
+align-items: center;
+display: inline-block;
+}
+
+#playerScore {
+  text-align: center;
+  margin-right: -100px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+#podium1 div {
+  z-index: 1;
+margin-top: -100px;
+}
+
+#podium2 div {
+  z-index: 1;
+  margin-top: -100px;
+}
+
+#podium3 div {
+  z-index: 1;
+  margin-top: -100px;
+}
+
+#podium4 div {
+  z-index: 1;
+  margin-top: -100px;
+}
+
+#podium5 div {
+  z-index: 1;
+  margin-top: -100px;
+}
+
+#p1 {
+/*float: right;*/
+text-align: right;
+
+}
+
+#p2 {
+/*float: left;*/
+text-align: left;
+}
+
+#playerscore {
+text-align: center;
+}
+
+#player2score {
+
+}
+
+#gameWinner {
+  text-align: center;
+}
+
+.player1 > span {
+  /* styles for player1 score */
+  font-size: 18px;
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+}
+
+.player2 > span {
+  /* styles for player2 score */
+  font-size: 18px;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+}
