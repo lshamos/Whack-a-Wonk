@@ -2,7 +2,7 @@
 
 ## The two-player game that gives you the chance to whack your favorite (err, least favorite) wonk.
 
-<!-- <img src="images/ScreenGrab.png"> -->
+<!-- <img src="Images/ScreenGrab.png"> -->
 ![image](Images/ScreenGrab.png)
 
 ### Player 1 starts the game and gets their chance of 30 seconds to whack their favorite star of last season’s election drama. But be careful, whack the wrong one and lose some points!
