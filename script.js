@@ -44,7 +44,7 @@ var turn = 1;
 var timerCount = 1000;
 // var scoreBox = $('')
 
-$('body').css('cursor', 'url(images/poop.png), auto');
+$('body').css('cursor', 'url(./images/poop.png), auto');
 
 $(podiums[randomInt(6)]).html('<img src="DonaldTrump.png" alt="">')
 
@@ -153,7 +153,7 @@ function declareWinner() {
 function refresh() {
   for (var i = 0; i < $('.podiums').length; i++) {
     var randomnumber = randomInt(images.length);
-    $(".podiums").eq(i).html('<div><img width="100px" src="images/' + images[randomnumber].url + '"></div>');
+    $(".podiums").eq(i).html('<div><img width="100px" src="./images/' + images[randomnumber].url + '"></div>');
     $(".podiums").eq(i).val(images[randomnumber].value);
     if (images[randomnumber].wonk) {
       $(".podiums").eq(i).data("wonk", "true");

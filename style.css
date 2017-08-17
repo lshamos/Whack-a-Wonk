@@ -32,7 +32,7 @@ button {
 }
 
 .container {
-  background-image: url('images/debateStage.jpg');
+  background-image: url('./images/debateStage.jpg');
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -41,7 +41,7 @@ button {
   width: 800px;
   border: 2px solid black;
   position: relative;
-  cursor: url(images/poop.png), auto;
+  cursor: url(./images/poop.png), auto;
 }
 
 .hero {
@@ -60,7 +60,7 @@ button {
 
 .podiums {
   z-index: 2;
-  background-image: url('Images/podium.png');
+  background-image: url('./images/podium.png');
   opacity:
   background-size: auto;
   background-position: center;
