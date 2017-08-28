@@ -14,29 +14,30 @@
 Play Whack a Wonk https://lshamos.github.io/Whack-a-Wonk/
 
 ## Development and Technologies
-### Whack a Wonk was developed using HTML, CSS, JavaScript and the jQuery library.
 
-## User stories:
+- HTML
+- CSS
+- JavaScript
+- jQuery
+
+## User stories
 
 -  When I arrive at the game I am prompted to start.
-
 -  After I start I am quickly engrossed in whacking the wonks and am feeling a sense of relief.
-
 -  I can play with another player and we can enjoy together.
-
 -  Winning validates my quick reflexes.
-
 -  After the game is over you can start a new one.
 
 ## MVP
+
 -  Images that continually change during players turn.  
 -  Multiple players.
 -  Clickable images.
 -  Game clock and image refresh rate.
 
 ## Dream features
+
 -  Accelerating image rate as game progresses to end of time.
 -  Images that pop up and down from podium.
 -  Sounds for click.
 -  Sounds for winner.
-# Whack-a-Wonk
